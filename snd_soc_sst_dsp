@@ -1,0 +1,14 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/sound/soc/intel/common/snd-soc-sst-dsp.ko
+license:        GPL v2
+description:    Intel SST Core
+author:         Liam Girdwood
+srcversion:     D761723CDFCDF852DA289E7
+depends:        
+retpoline:      Y
+intree:         Y
+name:           snd_soc_sst_dsp
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

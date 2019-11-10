@@ -1,0 +1,14 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/sound/core/snd-hwdep.ko
+license:        GPL
+description:    Hardware dependent layer
+author:         Jaroslav Kysela <perex@perex.cz>
+srcversion:     5BF1EEF1432E8E7F8682C00
+depends:        snd
+retpoline:      Y
+intree:         Y
+name:           snd_hwdep
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

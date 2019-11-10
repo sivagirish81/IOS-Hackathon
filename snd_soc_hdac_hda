@@ -1,0 +1,14 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/sound/soc/codecs/snd-soc-hdac-hda.ko
+author:         Rakesh Ughreja<rakesh.a.ughreja@intel.com>
+description:    ASoC Extensions for legacy HDA Drivers
+license:        GPL v2
+srcversion:     E9549B057300972D284AA78
+depends:        snd-hda-codec,snd-hda-ext-core,snd-hda-core,snd-soc-core
+retpoline:      Y
+intree:         Y
+name:           snd_soc_hdac_hda
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

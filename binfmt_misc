@@ -1,0 +1,13 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/fs/binfmt_misc.ko
+license:        GPL
+alias:          fs-binfmt_misc
+srcversion:     91658AD4C4E873A9B4F7CBC
+depends:        
+retpoline:      Y
+intree:         Y
+name:           binfmt_misc
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

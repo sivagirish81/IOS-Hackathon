@@ -1,0 +1,21 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/drivers/thermal/intel/intel_powerclamp.ko
+description:    Package Level C-state Idle Injection for Intel CPUs
+author:         Jacob Pan <jacob.jun.pan@linux.intel.com>
+author:         Arjan van de Ven <arjan@linux.intel.com>
+license:        GPL
+srcversion:     4C7B4A0BB3ADE0BD903D091
+alias:          cpu:type:x86,ven0000fam*mod*:feature:*0083*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           intel_powerclamp
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4
+parm:           duration:forced idle time for each attempt in msec.
+parm:           window_size:sliding window in number of clamping cycles
+	powerclamp controls idle ratio within this window. larger
+	window size results in slower response time but more smooth
+	clamping results. default to 2.

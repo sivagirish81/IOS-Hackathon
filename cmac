@@ -1,0 +1,15 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/crypto/cmac.ko
+alias:          crypto-cmac
+alias:          cmac
+description:    CMAC keyed hash algorithm
+license:        GPL
+srcversion:     D350BE2279F4DA87C9DE045
+depends:        
+retpoline:      Y
+intree:         Y
+name:           cmac
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

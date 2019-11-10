@@ -1,0 +1,13 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/sound/hda/ext/snd-hda-ext-core.ko
+license:        GPL v2
+description:    HDA extended core
+srcversion:     4428FEFFA8F54EDC6C77E02
+depends:        snd-pcm,snd-hda-core
+retpoline:      Y
+intree:         Y
+name:           snd_hda_ext_core
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

@@ -1,0 +1,12 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/fs/nls/nls_iso8859-1.ko
+license:        Dual BSD/GPL
+srcversion:     123BEA283E1EF3FC8960CF2
+depends:        
+retpoline:      Y
+intree:         Y
+name:           nls_iso8859_1
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

@@ -1,0 +1,28 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/drivers/bluetooth/btrtl.ko
+firmware:       rtl_bt/rtl8822b_config.bin
+firmware:       rtl_bt/rtl8822b_fw.bin
+firmware:       rtl_bt/rtl8821a_config.bin
+firmware:       rtl_bt/rtl8821a_fw.bin
+firmware:       rtl_bt/rtl8761a_config.bin
+firmware:       rtl_bt/rtl8761a_fw.bin
+firmware:       rtl_bt/rtl8723ds_config.bin
+firmware:       rtl_bt/rtl8723ds_fw.bin
+firmware:       rtl_bt/rtl8723bs_config.bin
+firmware:       rtl_bt/rtl8723bs_fw.bin
+firmware:       rtl_bt/rtl8723b_config.bin
+firmware:       rtl_bt/rtl8723b_fw.bin
+firmware:       rtl_bt/rtl8723a_fw.bin
+license:        GPL
+version:        0.1
+description:    Bluetooth support for Realtek devices ver 0.1
+author:         Daniel Drake <drake@endlessm.com>
+srcversion:     5A1F1227AB405EA3D2C3FF7
+depends:        bluetooth
+retpoline:      Y
+intree:         Y
+name:           btrtl
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

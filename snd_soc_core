@@ -1,0 +1,20 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/sound/soc/snd-soc-core.ko
+alias:          platform:soc-audio
+license:        GPL
+description:    ALSA SoC Core
+author:         Liam Girdwood, lrg@slimlogic.co.uk
+license:        GPL
+description:    Dynamic Audio Power Management core for ALSA SoC
+author:         Liam Girdwood, lrg@slimlogic.co.uk
+license:        GPL
+srcversion:     A2456247A7200A1711AC66C
+depends:        snd-pcm,snd-pcm-dmaengine,snd,snd-compress,ac97_bus
+retpoline:      Y
+intree:         Y
+name:           snd_soc_core
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4
+parm:           pmdown_time:DAPM stream powerdown time (msecs) (int)

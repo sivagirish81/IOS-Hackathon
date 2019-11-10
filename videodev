@@ -1,0 +1,15 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/drivers/media/v4l2-core/videodev.ko
+alias:          char-major-81-*
+license:        GPL
+description:    Device registrar for Video4Linux drivers v2
+author:         Alan Cox, Mauro Carvalho Chehab <mchehab@kernel.org>
+srcversion:     A616C02ACA5C243BE379008
+depends:        media
+retpoline:      Y
+intree:         Y
+name:           videodev
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

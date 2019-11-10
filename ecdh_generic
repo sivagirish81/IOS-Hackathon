@@ -1,0 +1,15 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/crypto/ecdh_generic.ko
+description:    ECDH generic algorithm
+license:        GPL
+alias:          crypto-ecdh
+alias:          ecdh
+srcversion:     371AFB6D5C84C4A55A28AC2
+depends:        
+retpoline:      Y
+intree:         Y
+name:           ecdh_generic
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

@@ -1,0 +1,13 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/sound/soc/snd-soc-acpi.ko
+description:    ALSA SoC ACPI module
+license:        GPL v2
+srcversion:     D5686B63964DEE8E7737854
+depends:        
+retpoline:      Y
+intree:         Y
+name:           snd_soc_acpi
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

@@ -1,0 +1,16 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/arch/x86/crypto/ghash-clmulni-intel.ko
+alias:          crypto-ghash
+alias:          ghash
+description:    GHASH Message Digest Algorithm, accelerated by PCLMULQDQ-NI
+license:        GPL
+srcversion:     4968E77EF68124E5B529E26
+alias:          cpu:type:x86,ven*fam*mod*:feature:*0081*
+depends:        cryptd
+retpoline:      Y
+intree:         Y
+name:           ghash_clmulni_intel
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

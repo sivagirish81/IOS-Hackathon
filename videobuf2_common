@@ -1,0 +1,15 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/drivers/media/common/videobuf2/videobuf2-common.ko
+license:        GPL
+author:         Pawel Osciak <pawel@osciak.com>, Marek Szyprowski
+description:    Media buffer core framework
+srcversion:     F58FFDF0E3564CBF635A2D6
+depends:        media,videodev
+retpoline:      Y
+intree:         Y
+name:           videobuf2_common
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4
+parm:           debug:int

@@ -1,0 +1,38 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/drivers/hwmon/dell-smm-hwmon.ko
+alias:          i8k
+license:        GPL
+description:    Dell laptop SMM BIOS hwmon driver
+author:         Pali Rohár <pali.rohar@gmail.com>
+author:         Massimo Dal Zotto (dz@debian.org)
+srcversion:     F4206DF4332855F05758051
+alias:          dmi*:svn*DellInc.*:pn*XPS159570*:
+alias:          dmi*:svn*DellInc.*:pn*XPS159560*:
+alias:          dmi*:svn*DellInc.*:pn*MXC051*:
+alias:          dmi*:svn*DellInc.*:pn*XPS13*:
+alias:          dmi*:svn*DellInc.*:pn*Studio*:
+alias:          dmi*:svn*DellInc.*:pn*XPSL421X*:
+alias:          dmi*:svn*DellInc.*:pn*Vostro*:
+alias:          dmi*:svn*DellInc.*:pn*Precision*:
+alias:          dmi*:svn*DellInc.*:pn*PrecisionWorkStation490*:
+alias:          dmi*:svn*DellInc.*:pn*MP061*:
+alias:          dmi*:svn*DellInc.*:pn*MM061*:
+alias:          dmi*:svn*DellInc.*:pn*Latitude*:
+alias:          dmi*:svn*DellInc.*:pn*LatitudeD520*:
+alias:          dmi*:svn*DellInc.*:pn*Inspiron*:
+alias:          dmi*:svn*DellComputer*:pn*Latitude*:
+alias:          dmi*:svn*DellComputer*:pn*Inspiron*:
+depends:        
+retpoline:      Y
+intree:         Y
+name:           dell_smm_hwmon
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4
+parm:           force:Force loading without checking for supported models (bool)
+parm:           ignore_dmi:Continue probing hardware even if DMI data does not match (bool)
+parm:           restricted:Restrict fan control and serial number to CAP_SYS_ADMIN (default: 1) (bool)
+parm:           power_status:Report power status in /proc/i8k (default: 0) (bool)
+parm:           fan_mult:Factor to multiply fan speed with (default: autodetect) (uint)
+parm:           fan_max:Maximum configurable fan speed (default: autodetect) (uint)

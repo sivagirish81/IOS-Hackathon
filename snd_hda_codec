@@ -1,0 +1,14 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/sound/pci/hda/snd-hda-codec.ko
+license:        GPL
+description:    HDA codec core
+srcversion:     01BDF52416E8C790639FD88
+depends:        snd-hda-core,snd-pcm,snd,snd-hwdep
+retpoline:      Y
+intree:         Y
+name:           snd_hda_codec
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4
+parm:           dump_coef:Dump processing coefficients in codec proc file (-1=auto, 0=disable, 1=enable) (int)

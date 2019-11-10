@@ -1,0 +1,12 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/arch/x86/crypto/glue_helper.ko
+license:        GPL
+srcversion:     D7BFA31ADEF36B24B5A31BD
+depends:        
+retpoline:      Y
+intree:         Y
+name:           glue_helper
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

@@ -1,0 +1,16 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/drivers/input/input-leds.ko
+license:        GPL v2
+description:    Input -> LEDs Bridge
+author:         Dmitry Torokhov <dmitry.torokhov@gmail.com>
+author:         Samuel Thibault <samuel.thibault@ens-lyon.org>
+srcversion:     2D614DDF600FC7ED4012CAE
+alias:          input:b*v*p*e*-e*11,*k*r*a*m*l*s*f*w*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           input_leds
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

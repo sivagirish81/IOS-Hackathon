@@ -1,0 +1,16 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/drivers/hwmon/coretemp.ko
+license:        GPL
+description:    Intel Core temperature monitor
+author:         Rudolf Marek <r.marek@assembler.cz>
+srcversion:     D0091C162E419666BE2E413
+alias:          cpu:type:x86,ven0000fam*mod*:feature:*01C0*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           coretemp
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4
+parm:           tjmax:TjMax value in degrees Celsius (int)

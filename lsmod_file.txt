@@ -118,7 +118,7 @@ vfio_mdev              16384  0
 mdev                   24576  2 kvmgt,vfio_mdev
 vfio_iommu_type1       28672  0
 vfio                   32768  3 kvmgt,vfio_mdev,vfio_iommu_type1
-nvidia              18792448  377 nvidia_uvm,nvidia_modeset
+nvidia              18792448  380 nvidia_uvm,nvidia_modeset
 kvm                   626688  2 kvmgt,kvm_intel
 irqbypass              16384  1 kvm
 i2c_algo_bit           16384  1 i915
@@ -141,4 +141,3 @@ wmi                    28672  5 dell_wmi,wmi_bmof,dell_smbios,dell_wmi_descripto
 pinctrl_cannonlake     36864  0
 video                  49152  3 dell_wmi,dell_laptop,i915
 pinctrl_intel          28672  1 pinctrl_cannonlake
-

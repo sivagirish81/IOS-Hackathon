@@ -1,0 +1,16 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/drivers/thermal/intel/x86_pkg_temp_thermal.ko
+license:        GPL v2
+author:         Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>
+description:    X86 PKG TEMP Thermal Driver
+srcversion:     B9BE1CF4AC6BCBE9308E525
+alias:          cpu:type:x86,ven0000fam*mod*:feature:*01C6*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           x86_pkg_temp_thermal
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4
+parm:           notify_delay_ms:User space notification delay in milli seconds. (int)

@@ -1,0 +1,132 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/sound/pci/hda/snd-hda-intel.ko
+description:    Intel HDA driver
+license:        GPL
+srcversion:     6CD0E71A9878F6C1D802E1A
+alias:          pci:v00001022d*sv*sd*bc04sc03i00*
+alias:          pci:v00001002d*sv*sd*bc04sc03i00*
+alias:          pci:v000015ADd00001977sv*sd*bc*sc*i*
+alias:          pci:v000017F3d00003010sv*sd*bc*sc*i*
+alias:          pci:v000013F6d00005011sv*sd*bc*sc*i*
+alias:          pci:v00001102d00000009sv*sd*bc*sc*i*
+alias:          pci:v00001102d00000012sv*sd*bc*sc*i*
+alias:          pci:v00001102d00000010sv*sd*bc*sc*i*
+alias:          pci:v00006549d00002200sv*sd*bc*sc*i*
+alias:          pci:v00006549d00001200sv*sd*bc*sc*i*
+alias:          pci:v000010DEd*sv*sd*bc04sc03i00*
+alias:          pci:v000010B9d00005461sv*sd*bc*sc*i*
+alias:          pci:v00001039d00007502sv*sd*bc*sc*i*
+alias:          pci:v00001106d00009140sv*sd*bc*sc*i*
+alias:          pci:v00001106d00009170sv*sd*bc*sc*i*
+alias:          pci:v00001106d00003288sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AAF0sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AAE0sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AAE8sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AAD8sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AAC8sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AAC0sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AAB0sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AAA8sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AAA0sv*sd*bc*sc*i*
+alias:          pci:v00001002d00009902sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA98sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA90sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA88sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA80sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA68sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA60sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA58sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA50sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA48sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA40sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA38sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA30sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA28sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA20sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA18sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA10sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA08sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000AA00sv*sd*bc*sc*i*
+alias:          pci:v00001002d00009840sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000970Fsv*sd*bc*sc*i*
+alias:          pci:v00001002d0000960Fsv*sd*bc*sc*i*
+alias:          pci:v00001002d00007919sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000793Bsv*sd*bc*sc*i*
+alias:          pci:v00001002d000015B3sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000157Asv*sd*bc*sc*i*
+alias:          pci:v00001002d00001308sv*sd*bc*sc*i*
+alias:          pci:v00001002d00000002sv*sd*bc*sc*i*
+alias:          pci:v00001022d000015E3sv*sd*bc*sc*i*
+alias:          pci:v00001022d0000157Asv*sd*bc*sc*i*
+alias:          pci:v00001022d0000780Dsv*sd*bc*sc*i*
+alias:          pci:v00001002d00004383sv*sd*bc*sc*i*
+alias:          pci:v00001002d0000437Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d*sv*sd*bc04sc03i00*
+alias:          pci:v00008086d00003A6Esv*sd*bc*sc*i*
+alias:          pci:v00008086d00003A3Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000293Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000293Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000284Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000269Asv*sd*bc*sc*i*
+alias:          pci:v00008086d000027D8sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002668sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002284sv*sd*bc*sc*i*
+alias:          pci:v00008086d00000F04sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000080Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000811Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d00003B56sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000160Csv*sd*bc*sc*i*
+alias:          pci:v00008086d00000D0Csv*sd*bc*sc*i*
+alias:          pci:v00008086d00000C0Csv*sd*bc*sc*i*
+alias:          pci:v00008086d00000A0Csv*sd*bc*sc*i*
+alias:          pci:v00008086d00003198sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001A98sv*sd*bc*sc*i*
+alias:          pci:v00008086d00005A98sv*sd*bc*sc*i*
+alias:          pci:v00008086d000034C8sv*sd*bc*sc*i*
+alias:          pci:v00008086d000006C8sv*sd*bc*sc*i*
+alias:          pci:v00008086d000002C8sv*sd*bc*sc*i*
+alias:          pci:v00008086d00009DC8sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000A348sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000A2F0sv*sd*bc*sc*i*
+alias:          pci:v00008086d00009D71sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000A171sv*sd*bc*sc*i*
+alias:          pci:v00008086d00009D70sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000A170sv*sd*bc*sc*i*
+alias:          pci:v00008086d00009CA0sv*sd*bc*sc*i*
+alias:          pci:v00008086d00009C21sv*sd*bc*sc*i*
+alias:          pci:v00008086d00009C20sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000A270sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000A1F0sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008D21sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008D20sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008CA0sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008C20sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001E20sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001D20sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001C20sv*sd*bc*sc*i*
+depends:        snd-hda-core,snd-hda-codec,snd-pcm,snd
+retpoline:      Y
+intree:         Y
+name:           snd_hda_intel
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4
+parm:           index:Index value for Intel HD audio interface. (array of int)
+parm:           id:ID string for Intel HD audio interface. (array of charp)
+parm:           enable:Enable Intel HD audio interface. (array of bool)
+parm:           model:Use the given board model. (array of charp)
+parm:           position_fix:DMA pointer read method.(-1 = system default, 0 = auto, 1 = LPIB, 2 = POSBUF, 3 = VIACOMBO, 4 = COMBO, 5 = SKL+). (array of int)
+parm:           bdl_pos_adj:BDL position adjustment offset. (array of int)
+parm:           probe_mask:Bitmask to probe codecs (default = -1). (array of int)
+parm:           probe_only:Only probing and no codec initialization. (array of int)
+parm:           jackpoll_ms:Ms between polling for jack events (default = 0, using unsol events only) (array of int)
+parm:           single_cmd:Use single command to communicate with codecs (for debugging only). (bint)
+parm:           enable_msi:Enable Message Signaled Interrupt (MSI) (bint)
+parm:           patch:Patch file for Intel HD audio interface. (array of charp)
+parm:           beep_mode:Select HDA Beep registration mode (0=off, 1=on) (default=1). (array of bool)
+parm:           power_save:Automatic power-saving timeout (in second, 0 = disable). (xint)
+parm:           pm_blacklist:Enable power-management blacklist (bool)
+parm:           power_save_controller:Reset controller in power save mode. (bool)
+parm:           align_buffer_size:Force buffer and period sizes to be multiple of 128 bytes. (bint)
+parm:           snoop:Enable/disable snooping (bint)

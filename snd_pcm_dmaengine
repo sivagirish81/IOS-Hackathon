@@ -1,0 +1,12 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/sound/core/snd-pcm-dmaengine.ko
+license:        GPL
+srcversion:     7C674AEDB5ABE82F75A4939
+depends:        snd-pcm
+retpoline:      Y
+intree:         Y
+name:           snd_pcm_dmaengine
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

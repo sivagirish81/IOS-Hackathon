@@ -55,9 +55,9 @@ int Parser()
    int i = 0;
    int j;
    fptr=fopen("lsmod_file.txt","r");
-    while (fptr )
+    while (fptr)
     {
-        fgets(c,100,fptr);
+        fgets(c,sizeof(c),fptr);
         char *tk = strtok(c," ");
         //j=i;
 	    while(tk!=NULL)
@@ -68,9 +68,28 @@ int Parser()
 	    	++i;
 	    	tk = strtok(NULL," ");
         }
-        printf("Data from the file:%s\n", args[0]);
+        //printf("Data from the file:%s\n", args[0]);
+        //printf("Data from the file:%s %s %s \n", args[0],args[1],args[2]);
         //i+=1;
-
+        if (1)
+        {
+            //New Fork to redirect statistics to a separate file
+            int new_fork=fork();
+            if (new_fork==0)
+            {
+                //char* fname= strcat(strcat(".\\Output\\",args[0]),".txt");
+                int fde = open(args[0],O_CREAT | O_RDWR | O_TRUNC);
+                dup2(fde,1);    
+                char* modinfo_output[3]={"modinfo",args[0],NULL};
+                execvp(modinfo_output[0],modinfo_output);
+                close(fde);
+            }
+            else
+            {
+                wait(0);
+            }
+            
+        }
     }
     fclose(fptr);
 

@@ -1,0 +1,12 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/crypto/crypto_simd.ko
+license:        GPL
+srcversion:     E5BD94BD5B843AE3F163004
+depends:        cryptd
+retpoline:      Y
+intree:         Y
+name:           crypto_simd
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4

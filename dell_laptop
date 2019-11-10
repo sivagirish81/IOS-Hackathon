@@ -1,0 +1,24 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/drivers/platform/x86/dell-laptop.ko
+license:        GPL
+description:    Dell laptop driver
+author:         Pali Rohár <pali.rohar@gmail.com>
+author:         Gabriele Mazzotta <gabriele.mzt@gmail.com>
+author:         Matthew Garrett <mjg@redhat.com>
+srcversion:     3362606CD8A70C694E92668
+alias:          dmi*:svn*DellComputerCorporation*:ct*8*:
+alias:          dmi*:svn*DellInc.*:ct*32*:
+alias:          dmi*:svn*DellInc.*:ct*31*:
+alias:          dmi*:svn*DellInc.*:ct*30*:
+alias:          dmi*:svn*DellInc.*:ct*10*:
+alias:          dmi*:svn*DellInc.*:ct*9*:
+alias:          dmi*:svn*DellInc.*:ct*8*:
+depends:        dell-smbios,video,ledtrig-audio
+retpoline:      Y
+intree:         Y
+name:           dell_laptop
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4
+parm:           force_rfkill:enable rfkill on non whitelisted models (bool)

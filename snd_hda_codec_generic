@@ -1,0 +1,14 @@
+filename:       /lib/modules/5.0.0-27-generic/kernel/sound/pci/hda/snd-hda-codec-generic.ko
+description:    Generic HD-audio codec parser
+license:        GPL
+srcversion:     70B8430A80DB3C791CCE5D9
+alias:          hdaudio:v00000201r*a01*
+depends:        snd-hda-codec,snd-hda-core,snd,ledtrig-audio
+retpoline:      Y
+intree:         Y
+name:           snd_hda_codec_generic
+vermagic:       5.0.0-27-generic SMP mod_unload 
+signat:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4
