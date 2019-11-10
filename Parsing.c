@@ -1,12 +1,14 @@
-
-#include "./Display_Drivers.c"
-
+#include "./Driver_Header.h"
+#include<stdio.h> 
+#include<stdlib.h> 
+#include<unistd.h>
+#include<string.h>
 int Parser(int fd)
 {
     FILE *fptr;
     char* c[1000];
     char* args[5];
-    if ((fptr=fopen(fd,"r")==NULL)
+    if ((fptr=fopen(fd,"r")==NULL))
     {
         printf("Device driver statistics not available \n");
         exit(0);

@@ -141,3 +141,4 @@ wmi                    28672  5 dell_wmi,wmi_bmof,dell_smbios,dell_wmi_descripto
 pinctrl_cannonlake     36864  0
 video                  49152  3 dell_wmi,dell_laptop,i915
 pinctrl_intel          28672  1 pinctrl_cannonlake
+
