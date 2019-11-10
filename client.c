@@ -12,7 +12,7 @@ int main()
 
     if(id == 0) //child process
     {
-        int fd = open("lsmod_file.txt",O_CREAT | O_RDWR);
+        int fd = open("lsmod_file.txt",O_CREAT | O_RDWR,0666);
         dup2(fd,1);    //redirects lsmod command output to file "lsmod_file/txt" and Fd for std output 1
         char* lsmod_output[2]={"lsmod",NULL};
         execvp(lsmod_output[0],lsmod_output);  //executes "lsmod" command
@@ -20,8 +20,9 @@ int main()
     }
     else
     {
-        parse_and_print();
-        wait(0); //waiting for child to execute
+	 wait(0); //waiting for child to execute       
+	 parse_and_print();
+        
     }
     
 
