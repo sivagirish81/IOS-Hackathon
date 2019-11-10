@@ -110,15 +110,15 @@ x_tables               40960  1 ip_tables
 autofs4                45056  2
 hid_generic            16384  0
 usbhid                 53248  0
-nvidia_drm             45056  4
-nvidia_modeset       1110016  3 nvidia_drm
+nvidia_drm             45056  5
+nvidia_modeset       1110016  4 nvidia_drm
 i915                 1818624  13
 kvmgt                  28672  0
 vfio_mdev              16384  0
 mdev                   24576  2 kvmgt,vfio_mdev
 vfio_iommu_type1       28672  0
 vfio                   32768  3 kvmgt,vfio_mdev,vfio_iommu_type1
-nvidia              18792448  258 nvidia_uvm,nvidia_modeset
+nvidia              18792448  377 nvidia_uvm,nvidia_modeset
 kvm                   626688  2 kvmgt,kvm_intel
 irqbypass              16384  1 kvm
 i2c_algo_bit           16384  1 i915
@@ -128,7 +128,7 @@ sysfillrect            16384  1 drm_kms_helper
 sysimgblt              16384  1 drm_kms_helper
 fb_sys_fops            16384  1 drm_kms_helper
 psmouse               151552  0
-drm                   479232  18 drm_kms_helper,nvidia_drm,i915
+drm                   479232  19 drm_kms_helper,nvidia_drm,i915
 r8169                  81920  0
 ipmi_devintf           20480  0
 ahci                   40960  3
