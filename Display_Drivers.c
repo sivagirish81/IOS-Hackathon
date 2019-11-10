@@ -18,21 +18,20 @@ int main()
 
     int id = fork();
 
-    if(id == 0){
-    int fd = open("lsmod_file.txt",O_CREAT | O_RDWR);
-    dup2(fd,1);    
-    char* lsmod_output[2]={"lsmod",NULL};
-    execvp(lsmod_output[0],lsmod_output);
-    close(fd);
+    if(id == 0)
+    {
+        int fd = open("lsmod_file.txt",O_CREAT | O_RDWR);
+        dup2(fd,1);    
+        char* lsmod_output[2]={"lsmod",NULL};
+        execvp(lsmod_output[0],lsmod_output);
+        Parser(fd)
+        close(fd);
     }
-    else{
+    else
+    {
         wait(0);
     }
     
 
     //Fd for std output 1
-
-
-
-
 }
